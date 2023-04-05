@@ -5,6 +5,15 @@ Integration between spotify and openai
 Project Statement
 Full Stack application that takes in a spotify playlist, trains an OpenAI model based on it, and spits out some result.
 
+# Local Implementation
+The only thing missing here is an environment file that contains tokens.
+
+`environment.sh`
+```
+SPOTIFY_TOKEN="{insert spotify token here}"
+OPENAI_TOKEN="{insert openai token here}"
+```
+
 
 # Roadmap
 - [ ] Set up git repository
