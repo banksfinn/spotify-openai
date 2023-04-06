@@ -14,6 +14,11 @@ SPOTIFY_TOKEN="{insert spotify token here}"
 OPENAI_TOKEN="{insert openai token here}"
 ```
 
+## Startup
+I personally use `mkvirtualenv` to create a virtual environment for this. Installing the requirements out of `requirements.txt` should be all that's necessary to run this locally.
+For the demo items, this can be run with
+`jupyter notebook`
+
 
 # Roadmap
 - [ ] Set up git repository
